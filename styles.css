@@ -1,0 +1,91 @@
+        .container {
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .dice {
+            text-align: center;
+            display: inline-block;
+        }
+        
+        body {
+            background-color: #393E46;
+        }
+        
+        h1 {
+            margin: 30px;
+            font-family: 'Lobster', cursive;
+            text-shadow: 5px 0 #232931;
+            font-size: 8rem;
+            color: #4ECCA3;
+        }
+        
+        p {
+            font-size: 2rem;
+            color: #4ECCA3;
+            font-family: 'Indie Flower', cursive;
+        }
+        
+        img {
+            width: 80%;
+        }
+        
+        footer {
+            margin-top: 5%;
+            color: #EEEEEE;
+            text-align: center;
+            font-family: 'Indie Flower', cursive;
+        }
+        
+        .btn1 {
+            margin: 4%;
+        }
+        
+        .btn {
+            font-size: 1.75rem;
+            border-radius: 10px;
+            background-color: #4ECCA3;
+            font-family: 'Indie Flower', cursive;
+            color: #EEEEEE;
+            padding: auto;
+            width: 270px;
+            border-width: 3px;
+            border-color: antiquewhite;
+        }
+        
+        .btn:hover {
+            animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+            transform: translate3d(0, 0, 0);
+            perspective: 1000px;
+        }
+        
+        @keyframes shake {
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-2px, 0, 0);
+            }
+            40%,
+            60% {
+                transform: translate3d(2px, 0, 0);
+            }
+        }
+        
+        .myName {
+            color: #EEEEEE;
+            text-decoration: none;
+        }
+        
+        .myName:hover {
+            color: red;
+            text-decoration: double;
+        }
